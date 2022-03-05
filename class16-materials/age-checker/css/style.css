@@ -1,0 +1,38 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  font-size: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-top: 15px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#danceDanceRevolution {
+  padding: 5px 10px;
+}

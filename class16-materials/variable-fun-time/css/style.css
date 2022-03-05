@@ -1,0 +1,41 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  height: auto;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.wrapper {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#result {
+  color: blue;
+}
+
+h3 {
+  margin: 10px;
+}
